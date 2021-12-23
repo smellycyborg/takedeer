@@ -1,0 +1,177 @@
+
+body {
+  display: grid;
+  background-color: #DBD3D8;
+  color: #2E5E4E;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+p{
+  text-align: center;
+}
+
+span{
+  -webkit-animation: color-change 5s infinite;
+  -moz-animation: color-change 5s infinite;
+  -o-animation: color-change 5s infinite;
+  -ms-animation: color-change 5s infinite;
+  animation: color-change 5s infinite;
+  display: inline-block;
+}
+
+@-webkit-keyframes color-change{
+  0% { color: #2E5E4E; }
+  /* 25% { color: #F43B86; } */
+  50% { color: #F43B86; }
+  /* 75% { color: #A7B5B9; } */
+  100% { color: #2E5E4E;}
+}
+
+@-moz-keyframes color-change{
+  0% { color: #2E5E4E; }
+  /* 25% { color: #F43B86; } */
+  50% { color: #F43B86; }
+  /* 75% { color: #A7B5B9; } */
+  100% { color: #2E5E4E;}
+}
+
+@-ms-keyframes color-change {
+  0% { color: #2E5E4E; }
+  /* 25% { color: #F43B86; } */
+  50% { color: #F43B86; }
+  /* 75% { color: #A7B5B9; } */
+  100% { color: #2E5E4E;}
+}
+
+@-o-keyframes color-change{
+  0% { color: #2E5E4E; }
+  /* 25% { color: #F43B86; } */
+  50% { color: #F43B86; }
+  /* 75% { color: #A7B5B9; } */
+  100% { color: #2E5E4E;}
+}
+
+@keyframes color-change{
+  0% { color: #2E5E4E; }
+  /* 25% { color: #F43B86; } */
+  50% { color: #F43B86; }
+  /* 75% { color: #A7B5B9; } */
+  100% { color: #2E5E4E;}
+}
+
+.scrolldown {
+  width: 80vw;
+}
+
+.scrolldown tbody {
+  max-height: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+/* .tbody{
+  height: 1px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: center;
+} */
+
+.table--style{
+  border: 1px solid #2E5E4E;
+  color: #2E5E4E;
+  text-align: center;
+}
+
+.table--bro {
+  width: 2% !important;
+}
+
+.flex--v{
+  display: flex;
+  align-items: center;
+}
+
+.polka{
+  background-image: radial-gradient(circle, black 20%, white 0%);
+  background-size:2% 200%;
+}
+
+.input--css2{
+  color: #F43B86;
+  height: 25px;
+  border: none;
+  margin: 6px;
+  padding: 2px;
+}
+
+.input--css2:focus{
+  outline: none;
+}
+
+.input--css{
+  color: #F43B86;
+  border-radius: 0%;
+  border: none;
+  width: 80%;
+  max-width: fit-content;
+  height: 25px;
+}
+
+.input--css:focus{
+  color: #F43B86;
+  border-color: #F43B86;
+  border-radius: 0%;
+  box-shadow: none
+}
+
+.space{
+  height: 15px;
+}
+
+/* TODO: figure out how to align items in the center with changing row height */
+.heightbro {
+  height: 400px;
+  align-items: center;
+}
+
+.header {
+  vertical-align: bottom;
+}
+
+.form--hidden {
+  display: none;
+}
+
+.btn-sharp {
+  background-color: #2E5E4E;
+  width: 80px;
+  border-radius: 0%;
+  color: #93A6AA;
+}
+
+.btn-sharp:hover {
+  color: #F43B86;
+}
+
+.btn-sharp:focus{
+  border-radius: 0%;
+  box-shadow: none
+}
+
+#form--css {
+  background-color: #93A6AA;
+  border: 1.5px solid #2E5E4E;
+}
+
+#container {
+  place-items: center center;
+}
+
+.pink{
+  color: #F43B86;
+}
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+/* @import 'bootstrap/dist/js/bootstrap.bundle.min'; */
